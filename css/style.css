@@ -79,6 +79,12 @@ img {
     height: 100%;
     border-radius: 7px;
 }
+@media(max-width:1200px){ /*Quando a tela tiver mais de 1200px*/
+
+    .card-item { /*Modifique o tamanho do card item*/
+        width: 80%;
+    }
+}
 /*
 img:hover {
     opacity: 0%;
